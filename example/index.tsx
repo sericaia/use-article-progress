@@ -1,6 +1,6 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import * as ReactDOMClient from 'react-dom/client';
 import { Thing } from '../.';
 
 const App = () => {
@@ -11,4 +11,7 @@ const App = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootElement = document.getElementById('root');
+const root = ReactDOMClient.createRoot(rootElement);
+
+root.render(<App />);
