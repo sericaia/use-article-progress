@@ -1,11 +1,11 @@
 .progressWrapper {
   position: fixed;
-  background-color: yellow;
+  background-color: lightblue;
   width: 100%;
 }
 
 .progress {
-  background-color: blue;
+  background-color: darkblue;
   height: 5px;
   display: block;
 }

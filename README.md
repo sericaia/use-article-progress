@@ -22,3 +22,5 @@ yarn
 yarn start
 # open localhost:1234
 ```
+
+![An example of an article component using the progress hook](./example/docs/demo.gif)
