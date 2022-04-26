@@ -1,12 +1,14 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOMClient from 'react-dom/client';
-import { Thing } from '../.';
+import { ArticleProgress } from './src/ArticleProgress/ArticleProgress';
+import { ArticleContent } from './src/ArticleContent/ArticleContent';
 
 const App = () => {
   return (
     <div>
-      <Thing />
+      <ArticleProgress />
+      <ArticleContent />
     </div>
   );
 };
