@@ -3,6 +3,10 @@
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sericaia/use-article-progress"
+  },
   "files": [
     "dist",
     "src"
@@ -17,10 +21,10 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "deploy": "yarn build && yarn publish"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=18"
   },
   "husky": {
     "hooks": {
